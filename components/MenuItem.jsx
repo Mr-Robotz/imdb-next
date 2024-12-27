@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const MenuItem = ({ title, address, icon }) => {
   return (
-    <Link href={address} className="hover:text-amber-500"> 
+    <Link href={address} className="hover:text-amber-500 font-semibold"> 
       <p className="text-2xl sm:hidden">{icon}</p>
       <p className="uppercase hidden sm:inline text-sm">{title}</p>
     </Link>

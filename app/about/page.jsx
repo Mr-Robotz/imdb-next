@@ -18,6 +18,22 @@ const page = () => {
         actor, genre, or release date, making it easy to find the perfect movie
         for any occasion.
       </p>
+      <p>
+        In addition to our extensive movie database, we also offer a platform
+        for movie lovers to connect and share their thoughts on the latest
+        releases. Our community section includes a forum where you can discuss
+        your favorite films with like-minded individuals and read reviews and
+        ratings from other users. We also have a section dedicated to movie news
+        and trailers, keeping you updated with the latest happenings in the
+        world of cinema
+      </p>
+      <p>
+        Thank you for visiting our website and we hope you enjoy your time
+        browsing through our movie database. If you have any feedback or
+        suggestions, please feel free to contact us. We are always looking for
+        ways to improve and enhance the user experience on our website. Happy
+        browsing!
+      </p>
     </div>
   );
 };

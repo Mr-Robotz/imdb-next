@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 import Providers from "./Providers";
 
 
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Providers>
           <Header />
+          <Navbar />
           {children}
         </Providers>
       </body>
